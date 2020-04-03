@@ -24,7 +24,7 @@ article {margin: 12px 12px 12px 12px}
 [id="Datos"] {border: solid 6px  gray; background:  #a9dfbf}
 [id^="Estudios"] {border: solid 6px  gray; background:  #a9dfbf}
 [id*="Area de especializacion"] {border: solid 6px  gray; background:  #a9dfbf}
-[id="Experiencia Laboral"] {border: solid 6px  gray; background:  #a9dfbf}
+[id="Experiencia Laboral"] {border: solid 6px  gray; background:  #a9dfbf} 
 [id="Intereses"] {border: solid 6px  gray; background:  #a9dfbf}
 [id$="Hobbies"] {border: solid 6px  gray; background:  #a9dfbf}
 body>footer p:hover{background: yellow; color; red}
