@@ -24,8 +24,10 @@ article {margin: 12px 12px 12px 12px}
 [id="Datos"] {border: solid 6px  #abebc6; background:  #d7bde2 }
 [id^="Estudios"] {border: solid 6px #eb984e; background:   #85c1e9}
 [id*="Area de especializacion"] {border: solid 6px  orange; background:  #a9dfbf}
-[id~="Experiencia Laboral"] {border: solid 6px #85c1e9; background:  white }
-[id$="Hobbies"] {border: solid 6px white; background:  #f4d03f }
+[id~="Experiencia Laboral"] {border: solid 6px  orange; background:  #a9dfbf}
+[id$="Hobbies"] {border: solid 6px  orange; background:  #a9dfbf}
+[id$="Intereses"] {border: solid 6px  orange; background:  #a9dfbf}
+[id$="Hobbies"] {border: solid 6px  orange; background:  #a9dfbf}
 body>footer p:hover{background: yellow; color; red}
 *:first-letter {font-size: 30px}
 form {background: white; margin: 30px 0px 30px 0px; padding: 10px 0px 20px 0px}
