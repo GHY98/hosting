@@ -1,0 +1,49 @@
+h2:hover {background: white; color: black}
+html {background-color:  #2c3e50}
+h1 {text-align: center; color: red; background-color:yellow; margin: 0px 400px 0px 400px}
+img {border-collapse: collapse; border: 5px solid blue}
+h2 {text-align: center; color: blue; background-color:black}
+h3 {text-align: center; color: yellow; background-color: red}
+h1:active {background-color:red; color:yellow}
+ul > li:nth-child(5) {color: black}
+ul > li:nth-of-type(2) {color:  #1c2833 }
+ul > li:nth-of-type(3) {color:  #212f3d  }
+ul > li:last-child {color:  #566573 }
+ul > li:first-child {color:  #2c3e50 }
+ul > li + li + li + li {color:  #273746 }
+li {width: 800px; height: 20px; text-align: left; margin: 5px 0px 5px 0px; padding: 10px 0px 10px 0px}
+section,article {width: all; text-align: center}
+footer > p:first-child {text-align: center; color: blue; background-color: orange}
+footer > p + p {text-align: center;color: white}
+footer {border: 4px solid black; margin: 5px 450px 5px 450px; background:  #ec7063}
+p:empty::before {content: "<<FIN"}
+p:empty::after {content: ">>"}
+article {margin: 12px 12px 12px 12px}
+#Solicitante {border: solid 6px orange; background: green}
+#Estudios {border: solid 6px green}
+[id="Datos"] {border: solid 6px  #abebc6; background:  #d7bde2 }
+[id^="Estudios"] {border: solid 6px #eb984e; background:   #85c1e9}
+[id*="genero"] {border: solid 6px  orange; background:  #a9dfbf}
+[id~="de"] {border: solid 6px #85c1e9; background:  white }
+[id$="Deportes"] {border: solid 6px white; background:  #f4d03f }
+body>footer p:hover{background: yellow; color; red}
+*:first-letter {font-size: 30px}
+form {background: white; margin: 30px 0px 30px 0px; padding: 10px 0px 20px 0px}
+input:not(#submit){border-radius: 4px;}
+input:checked:enabled{
+  width: 5px;
+}
+
+input:checked:disabled{
+    width: 30px;
+}
+
+input[type='checkbox']{width: 50px;}
+
+input:focus,textarea:focus{
+    border-radius: 20px;
+    border:solid 2px blue;
+    color:yellow;
+}
+
+textarea{width: 20%;    height: 25px;}
