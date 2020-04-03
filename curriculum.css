@@ -25,8 +25,7 @@ article {margin: 12px 12px 12px 12px}
 [id^="Estudios"] {border: solid 6px #eb984e; background:   #85c1e9}
 [id*="Area de especializacion"] {border: solid 6px  orange; background:  #a9dfbf}
 [id~="Experiencia Laboral"] {border: solid 6px  orange; background:  #a9dfbf}
-[id$="Hobbies"] {border: solid 6px  orange; background:  #a9dfbf}
-[id$="Intereses"] {border: solid 6px  orange; background:  #a9dfbf}
+[id="Intereses"] {border: solid 6px  orange; background:  #a9dfbf}
 [id$="Hobbies"] {border: solid 6px  orange; background:  #a9dfbf}
 body>footer p:hover{background: yellow; color; red}
 *:first-letter {font-size: 30px}
